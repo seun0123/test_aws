@@ -6,7 +6,11 @@ import sys
 
 def main():
     """Run administrative tasks."""
+<<<<<<< HEAD
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'PlayInYouth.settings')
+=======
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'awsprj.settings')
+>>>>>>> 3542bf9af1ff66b7b1607abb064056ae92f111f2
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
